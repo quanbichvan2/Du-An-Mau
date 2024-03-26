@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="131146da5c75488a9ebd215ecd68b1ef" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="DuAnMauModel.Hang" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DuAnMauModel.KhachHang" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DuAnMauModel.NhanVien" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DuAnMauModel.sysdiagrams" Width="1.5" PointX="6.25" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="DuAnMauModel.fk_Hang_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="DuAnMauModel.fk_KhachHang_NhanVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
